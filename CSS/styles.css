@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: normal;
+  }
+  
+  /* Estilos de los formularios */
+  form {
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos de los resultados */
+  #result, #word-count, #age-result, #conversion-result, #transformed-text {
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+  }
